@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(images/image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container .brand-logo {
+  height: 250px;
+  position: relative;
+}
+
+.container .brand-logo img {
+  position: absolute;
+  top: 120px;
+  left: 640px;
+  height: 41px;
+  width: 255px;
+}
+
+.container .brand-logo h2 {
+  color: #ff5a3b;
+  position: absolute;
+  margin-top: 40px;
+  top: 147px;
+  left: 650px;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.container .content-box {
+  color: white;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container .content-box h1 {
+  font-size: 2.5rem;
+  margin: auto;
+  font-weight: bolder;
+}
+
+.container .content-box p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.container .content-box button {
+  padding: 15px;
+  margin-top: 20px;
+  background: rgb(255, 90, 59);
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.container .content-box button:hover {
+  background: rgb(210, 82, 59);
+}
+
+.container .content-photo {
+  background-color: rgb(31, 36, 46);
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .content-photo .photo {
+  width: 40%;
+  height: auto;
+  position: relative;
+}
+
+.container .content-photo .photo .photo-1,
+.container .content-photo .photo .photo-2 {
+  height: 200px;
+  width: 100px;
+  margin-left: 90px;
+}
+
+.container .content-photo .photo .photo-1 {
+  position: absolute;
+  top: -16px;
+  left: 10px;
+}
+
+.container .content-photo .photo .photo-2 {
+  position: absolute;
+  top: 50px;
+  left: 224px;
+}
+
+.container .content-photo .content {
+  width: 50%;
+  height: auto;
+  text-decoration: none;
+}
+
+.container .content .p {
+  margin-top: 40px;
+  margin-left: 30px;
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+.container .content h2 {
+  color: white;
+  font-size: 2.5rem;
+  margin-left: 45px;
+  font-weight: bolder;
+}
+
+.container .content .main-p {
+  margin-left: 30px;
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding: 16px;
+}
+
+.active {
+  color: #ff5a3b;
+}
+
+.container .content-last {
+  height: 400px;
+  text-align: center;
+}
+
+.container .content-last h5 {
+  font-size: 1.1rem;
+}
+
+.container .content-last h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.container .content-last button {
+  padding: 15px;
+  margin-top: 20px;
+  background: rgb(255, 90, 59);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  transition: all 0.5s ease;
+}
+.container .content-last button:hover {
+  background: rgb(210, 82, 59);
+}
+
+.container .footer {
+  height: 150px;
+  background-color: rgb(31, 36, 46);
+  text-align: center;
+  color: white;
+}
+
+.container .footer p {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.container .footer .content-footer .horizontal-line {
+  width: 2px;
+  height: 70%;
+  border: 2px solid rgb(255, 255, 255);
+  margin: 25px 20px;
+}
+
+.container .footer .content-footer p a {
+  color: white;
+}
+
+.container .footer .content-footer p a:hover {
+  text-decoration: none;
+}
+
+.container .footer .content-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 1.1rem;
+}
